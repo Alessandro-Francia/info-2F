@@ -9,3 +9,5 @@ if salute == "molto bene":
 elif salute == "molto male":
     spiegazione = input ("mi dispiace, puoi spiegarmi perchè?")
     print ("capisco che possa essere frustrante, ma non ti abbattere così tanto")
+else:
+    print ("non è mai sbagliato essere moderati")
