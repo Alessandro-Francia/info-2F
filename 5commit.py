@@ -1,1 +1,5 @@
-name = input ('qual'è il tuo nome?')
+name = input ("qual'è il tuo nome?")
+
+print ("ciao", name)
+
+
