@@ -1,3 +1,8 @@
+'''
+Scrivi un programma che a scelta dall'utente calcoli l'area di un quadrato, rettangolo
+triangolo e cerchio
+'''
+
 calcolo = input ("vuoi calcolare l'area di un quadrato, rettangolo, triangolo o cerchio?")
 
 
