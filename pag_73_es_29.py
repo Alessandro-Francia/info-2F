@@ -1,3 +1,12 @@
+'''
+Dato un elenco di città, con l'indicazione per ciascuna di esse del nome e delle temperature
+massima e minima registrate in un giorno, si devono contare quante città hanno superato
+nel giorno un valore prefissato per l'escursione termica.
+Organizza un programma che controlli se l'escursione è maggiore del valore prefissato:
+in questo caso, incrementa il contatore delle città selezionate.
+Alla fine della ripetizione comunica il numero delle città registrato nel contatore.
+'''
+
 print ("digita 0 per terminare l'elenco")
 nomi = []
 escursioni_termiche = []
@@ -22,4 +31,5 @@ while True:
             if escursione_termica_2 > escursioni_termiche [indice]:
                 contatore += 1
         break
+
 print ("le città che hanno avuto un'escursione termica maggiore rispetto alla prefissata sono", contatore)

@@ -1,3 +1,7 @@
+'''
+Fornisci la rappresentazione in decimale di un numero binario.
+'''
+
 lunghezza = int (input ("dimmi il numero delle cifre binarie"))
 somma = 0
 for n in range (lunghezza):

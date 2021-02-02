@@ -1,3 +1,7 @@
+'''
+Fornisci la rappresentazione in binario di un numero decimale.
+'''
+
 binario = []
 numero = int (input ("dimmi un numero naturale"))
 while True:
