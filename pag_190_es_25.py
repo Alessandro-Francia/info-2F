@@ -11,16 +11,15 @@ print ("inserire i numeri di matricola degli studenti con il relativo voto, non 
 
 while True:
 	studente = input ("studente:")
+	if studente == "":
+		break
 	try:
 		voto = int(input ("voto:"))
 	except ValueError:
 		break
-
-	if studente == "":
-		break
-	else:
-		elenco_studenti [studente] = voto
-		elenco_voti.append (voto)
+	
+	elenco_studenti [studente] = voto
+	elenco_voti.append (voto)
 
 elenco_voti.sort ()
 print ("sono stati assegnati questi voti:", elenco_voti)
